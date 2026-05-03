@@ -1,0 +1,57 @@
+.motherfucking-website{
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    
+    padding: 50px;
+    margin: 0 auto;
+    width: 55%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 40%;
+    margin-right: 1em;
+    display: block;
+}
+
+.right {
+    width: 55%;
+    margin-left: 1em;
+    display: block;
+}
+
+.rainbow {
+    animation: colorChange 0.5s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: orange;
+    }
+
+}
+
+.catImg {
+    width: 100%;
+    height: auto;
+}
+.kopimiImg {
+    width: 2em;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
